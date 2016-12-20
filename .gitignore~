@@ -1,0 +1,12 @@
+.
+..
+build
+.classpath
+.git
+.gitignore
+.project
+ressource
+.settings
+src
+suiviDesModifs
+WebContent
