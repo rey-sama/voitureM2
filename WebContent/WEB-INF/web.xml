@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="3.0">
+  <servlet>
+    <servlet-name>ConnexionServ</servlet-name>
+    <servlet-class>servlet.ConnexionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConnexionServ</servlet-name>
+    <url-pattern>/nouveau</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GameServ</servlet-name>
+    <servlet-class>servlet.GamingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GameServ</servlet-name>
+    <url-pattern>/jeu</url-pattern>
+  </servlet-mapping>
+</web-app>

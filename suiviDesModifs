@@ -1,0 +1,9 @@
+Dans ce document, chacun méttra ce qu'il a modifier, ajouter, etc et a la fin on verra ce que l'on garde. Essayons de le mettre a jour
+
+
+-----------------------LAST VALIDATION--------------------------
+Suite a des test, inversion du - et du + dans tournerGauche et tournerDroite
+Modification de décéléré : Il manquait la partie de déplacement
+Ajout de classes permettant d'effectuer des tests
+Ajout de la classe partie
+Fonction qui renvois les infos de tout les joueurs de la partie (en cours)
